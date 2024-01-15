@@ -1,0 +1,61 @@
+
+body {
+    font-family: "Sora";
+    padding-top: 100px;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Sora";
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+h6 {
+    color: #029e2b;
+}
+
+h5 {
+    color: #029e2b;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-scrolled {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: black;
+    font-family: "Sora";
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.nav-link:hover {
+    color: #029e2b;
+}
+
+.form-select {
+    border-color: black;
+}
+
+.form-control {
+    border-color: black;
+}
+
+img {
+  border-radius: 10% !important;
+}
+
+.card {
+  border-color: white;
+}
+
+a {
+    color: #029e2b;
+}

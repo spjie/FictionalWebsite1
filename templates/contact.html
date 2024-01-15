@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Riddle Ready</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora">
+    <link rel="stylesheet" href="../static/styles.css">
+    <script src="/static/script.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light fixed-top">
+    <a class="navbar-brand ms-3" href="/">
+        <span class="row">
+            <span class="col-sm-1 me-5">
+                <img src="/static/logo.png" alt="Avatar Logo" style="width:60px;" class="rounded-pill">
+            </span>
+            <span class="col-sm-2 mt-3">
+                <h5>Riddle Ready</h5>
+            </span>
+        </span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/products">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--photo-->
+<div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8" align="center">
+        <img class="img-fluid" src="static/contact.jpeg" alt="ceo image" width="800px">
+    </div>
+    <div class="col-sm-2"></div>
+</div>
+
+<!--header-->
+<h1 class="px-5 pt-5" align="center">Join our mailing list!</h1>
+<div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+        <h6 class="px-5 pb-3" align="center">Brace yourself for a barrage of mind-bending 'fun' – because who doesn't
+            love being perplexed without consent? Sign up now, if you dare. We promise, it's an experience you won't
+            easily forget (unfortunately).</h6>
+    </div>
+    <div class="col-sm-2"></div>
+</div>
+
+<!--form-->
+<div class="container-fluid px-5">
+    <div class="container-fluid px-5">
+        <form class="px-5" action="/">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control" id="first-name" placeholder="Enter name"
+                               name="first-name">
+                        <label for="first-name">First name</label>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control" id="last-name" placeholder="Enter name"
+                               name="last-name">
+                        <label for="last-name">Last name</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="number" class="form-control" id="phone" placeholder="Enter phone" name="phone">
+                        <label for="phone">Phone</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control" id="addr" placeholder="Enter address" name="address">
+                <label for="addr">Address</label>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control text-wrap" id="apt" placeholder="Enter apt" name="apt">
+                        <label for="apt">Apartment, suite, etc. (optional)</label>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="text" class="form-control" id="city" placeholder="Enter city" name="city">
+                        <label for="city">City</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <select class="form-select custom-select mt-3" aria-label="Default select example"
+                            style="height:60px">
+                        <option selected>State</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        <option value="CA">California</option>
+                        <option value="CO">Colorado</option>
+                        <option value="CT">Connecticut</option>
+                        <option value="DE">Delaware</option>
+                        <option value="FL">Florida</option>
+                        <option value="GA">Georgia</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="ID">Idaho</option>
+                        <option value="IL">Illinois</option>
+                        <option value="IN">Indiana</option>
+                        <option value="IA">Iowa</option>
+                        <option value="KS">Kansas</option>
+                        <option value="KY">Kentucky</option>
+                        <option value="LA">Louisiana</option>
+                        <option value="ME">Maine</option>
+                        <option value="MD">Maryland</option>
+                        <option value="MA">Massachusetts</option>
+                        <option value="MI">Michigan</option>
+                        <option value="MN">Minnesota</option>
+                        <option value="MS">Mississippi</option>
+                        <option value="MO">Missouri</option>
+                        <option value="MT">Montana</option>
+                        <option value="NE">Nebraska</option>
+                        <option value="NV">Nevada</option>
+                        <option value="NH">New Hampshire</option>
+                        <option value="NJ">New Jersey</option>
+                        <option value="NM">New Mexico</option>
+                        <option value="NY">New York</option>
+                        <option value="NC">North Carolina</option>
+                        <option value="ND">North Dakota</option>
+                        <option value="OH">Ohio</option>
+                        <option value="OK">Oklahoma</option>
+                        <option value="OR">Oregon</option>
+                        <option value="PA">Pennsylvania</option>
+                        <option value="RI">Rhode Island</option>
+                        <option value="SC">South Carolina</option>
+                        <option value="SD">South Dakota</option>
+                        <option value="TN">Tennessee</option>
+                        <option value="TX">Texas</option>
+                        <option value="UT">Utah</option>
+                        <option value="VT">Vermont</option>
+                        <option value="VA">Virginia</option>
+                        <option value="WA">Washington</option>
+                        <option value="WV">West Virginia</option>
+                        <option value="WI">Wisconsin</option>
+                        <option value="WY">Wyoming</option>
+                    </select>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-floating mb-3 mt-3">
+                        <input type="number" class="form-control" id="zip" placeholder="Enter zip" name="zip">
+                        <label for="zip">ZIP code</label>
+                    </div>
+                </div>
+            </div>
+            <div class="d-grid">
+                <button type="button" class="btn btn-primary btn-block py-3 mt-3 mb-5">Submit</button>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<footer class="text-center text-white" style="background-color: #029e2b">
+    <div class="container">
+        <section class="mt-5 pt-5">
+            <div class="row" align="center">
+                <div class="col-md-3">
+                    <h4 class="font-weight-bold">
+                        <a href="/" class="text-white" style="text-decoration:none">Home</a>
+                    </h4>
+                </div>
+                <div class="col-md-3">
+                    <h4 class=" font-weight-bold">
+                        <a href="/about" class="text-white" style="text-decoration:none">About</a>
+                    </h4>
+                </div>
+                <div class="col-md-3">
+                    <h4 class=" font-weight-bold">
+                        <a href="/products" class="text-white" style="text-decoration:none">Products</a>
+                    </h4>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="font-weight-bold">
+                        <a href="/contact" class="text-white" style="text-decoration:none">Contact</a>
+                    </h4>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-5"/>
+
+        <section class="pb-5">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8" align="center">
+                    <p>
+                        Ever dreamed of being accosted at your doorstep by a smirking Riddle Master forcing you to prove
+                        your intellectual prowess? Welcome to Riddle Ready Services – where entering your own home
+                        becomes a mind-bending challenge. Our service offers a relentless barrage of personalized
+                        riddles, ensuring you never forget how unprepared you are for life's unexpected twists.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>
+</body>
+</html>
