@@ -6,9 +6,8 @@ body {
 }
 
 h1 {
-    font-family: "Sora";
     font-size: 60px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 h6 {
@@ -20,7 +19,7 @@ h5 {
 }
 
 .navbar {
-    background-color: #ffffff !important;
+    background-color: white;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -31,7 +30,6 @@ h5 {
 
 .nav-link {
     color: black;
-    font-family: "Sora";
     font-weight: bold;
     margin-right: 30px;
 }
@@ -59,3 +57,4 @@ img {
 a {
     color: #029e2b;
 }
+
